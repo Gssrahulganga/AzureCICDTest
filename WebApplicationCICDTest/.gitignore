@@ -1,0 +1,78 @@
+# Repository-root .gitignore for a .NET 9 / ASP.NET Core Web API
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+.ReSharper*/
+*.ReSharper.*
+*.DotSettings.user
+
+# VS Code
+.vscode/
+
+# Build outputs
+bin/
+obj/
+out/
+artifacts/
+
+# Publish output
+publish/
+*.Publish/
+*.azurePubxml
+
+# NuGet
+*.nupkg
+.nuget/packages/
+packages/
+project.assets.json
+project.lock.json
+project.fragment.lock.json
+
+# ASP.NET Core / .NET Core
+appsettings.Development.json
+local.settings.json
+secrets.json
+secrets.user
+# Optional: If you keep launch settings out of source control:
+Properties/launchSettings.json
+
+# Test results / Coverage
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage.opencover.xml
+
+# Logs
+*.log
+
+# Generated files
+*.g.cs
+*.g.i.cs
+*.designer.cs
+
+# Symbol files
+*.pdb
+*.mdb
+
+# Node / front-end
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+docker-compose.override.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
