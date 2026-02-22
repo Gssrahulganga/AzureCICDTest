@@ -1,4 +1,4 @@
-name: Build and deploy ASP.Net Core app to Azure Web App - DemoAppTest007
+name: Build and deploy ASP.Net Core app to Azure Web App - DemoWebAppECom
 
 on:
   push:
@@ -52,5 +52,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-          app-name: 'DemoAppTest007'
+          app-name: 'DemoWebAppECom'
           package: myapp
+
