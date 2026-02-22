@@ -8,7 +8,7 @@ namespace WebApplicationCICDTest.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Rahul Ganga","Sulekh verma"
+            "Rahul Ganga","Sulekh verma","Ayyappan Ganga"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
